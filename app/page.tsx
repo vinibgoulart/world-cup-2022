@@ -7,13 +7,13 @@ function Home() {
     <div className="my-5">
       <hr />
       {/* @ts-expect-error Server Component */}
-      <TeamsInformations />
-      <hr />
-      {/* @ts-expect-error Server Component */}
       <Standing />
       <hr />
       {/* @ts-expect-error Server Component */}
       <Matchs />
+      <hr />
+      {/* @ts-expect-error Server Component */}
+      <TeamsInformations />
       <hr />
     </div>
   )
